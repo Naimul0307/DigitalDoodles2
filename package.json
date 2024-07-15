@@ -1,0 +1,14 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+     "package-win": "electron-packager . --platform=win32 --arch=x64 --out=dist --icon=4919664.ico --overwrite --ignore=resources",
+    "debug-win": "electron . --inspect=5858" 
+  },
+  "devDependencies": {
+    "electron": "^16.0.5",
+    "electron-packager": "^16.4.0"
+  }
+}

@@ -1,0 +1,12 @@
+Quiz_Game/
+├── public/
+│   ├── background/
+│   ├── css/
+│   ├── js/
+│   └── xml/
+│       └── questions.xml
+├── templates/
+│   ├── index.html
+│   ├── game.html
+│   ├── result.html
+
